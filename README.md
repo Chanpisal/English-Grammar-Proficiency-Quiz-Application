@@ -1,7 +1,7 @@
 # English Grammar Proficiency Quiz Application
 
 ## Project Description
-The English Grammar Proficiency Quiz Application is a fun and interactive platform designed to help users improve their English grammar skills. The application allows users to practice grammar through quizzes, track their progress, and receive feedback for their answers as well as the link to access the websitr for further improvement. It features a user-friendly interface, performance tracking, and sound effects to create an engaging learning experience.
+The English Grammar Proficiency Quiz Application is a fun and interactive platform designed to help users improve their English grammar skills. The application allows users to practice grammar through quizzes, track their progress, and receive feedback for their answers as well as the link to access the website for further improvement. It features a user-friendly interface, performance tracking, and sound effects to create an engaging learning experience.
 
 ---
 
@@ -11,7 +11,7 @@ The English Grammar Proficiency Quiz Application is a fun and interactive platfo
 - **Performance Tracking**: Tracks user scores and provides progress feedback.
 - **CRUD Operations**: Add, delete, update, and view quiz questions in the database.
 - **Sound Effects**: Enhances engagement with sound feedback for correct/incorrect answers.
-- **Feedback Mechanism**: Displays correct answers for wrongly answered questions and the link to access the websitr for further improvement .
+- **Feedback Mechanism**: Displays correct answers for wrongly answered questions and the link to access the website for further improvement .
 - **Admin Panel (Optional)**: Allows management of users, questions, and app settings.
 
 ---
