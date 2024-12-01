@@ -90,6 +90,27 @@ The English Grammar Proficiency Quiz Application is a fun and interactive platfo
 
 ---
 
+## Sound Files
+
+The application includes various sound files to enhance user interaction. These files are used for:
+
+- **Feedback**: Sounds for correct and incorrect answers.
+- **Background Music**: Optional background audio for the quiz.
+
+### File Format and Location
+
+- **File Format**: `.mp3` (ensure all sound files are in the `sounds/` directory).
+
+### Usage
+
+Place sound files in the `sounds/` directory in the project root. The application will load these files automatically for sound effects during quizzes.
+
+## License
+
+This project is licensed under the MIT License. Feel free to use, modify, and distribute it as needed.
+
+---
+
 ## Future Enhancements
 - Mobile compatibility.
 - Multiplayer quiz mode.
