@@ -110,22 +110,21 @@ Place sound files in the `sounds/` directory in the project root. The applicatio
 ## Directory Structure
 
 EnglishGrammarQuiz/
-├── backend/
-│   ├── main.py            
-│   ├── database.py          
-│   ├── create_database.py     
-│   ├── insert_question.py  
+├── backend/                    
+│   ├── main.py                 
+│   ├── database.py             
+│   ├── create_database.py    
+│   ├── insert_question.py      
 │   ├── verify_data.py         
 │   ├── delete.py              
 │   ├── quiz_logic.py        
 │   ├── sound.py              
-├── frontend/
-│   ├── gui.py               
-├── database/
-│   ├── english_grammar_quiz.db 
-│   ├── quiz_db.sql            
-├── requirements.txt      
-└── README.md                 
+├── frontend/                   
+│   ├── gui.py                 
+├── database/                 
+│   ├── english_grammar_quiz.db           
+├── requirements.txt           
+└── README.md                  
 
 ---
 
