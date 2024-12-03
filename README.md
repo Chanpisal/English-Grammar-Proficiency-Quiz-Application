@@ -111,21 +111,21 @@ Place sound files in the `sounds/` directory in the project root. The applicatio
 
 EnglishGrammarQuiz/
 ├── backend/
-│   ├── main.py                # Entry point of the application
-│   ├── database.py            # Handles database connections and queries
-│   ├── create_database.py     # Creates the necessary database structure
-│   ├── insert_question.py     # Inserts quiz questions into the database
-│   ├── verify_data.py         # Verifies if the database is properly populated
-│   ├── delete.py              # Deletes user data or resets the database
-│   ├── quiz_logic.py          # Contains the logic for the quiz functionality
-│   ├── sound.py               # Plays sound effects using Pygame
+│   ├── main.py            
+│   ├── database.py          
+│   ├── create_database.py     
+│   ├── insert_question.py  
+│   ├── verify_data.py         
+│   ├── delete.py              
+│   ├── quiz_logic.py        
+│   ├── sound.py              
 ├── frontend/
-│   ├── gui.py                 # Manages the graphical user interface using Tkinter
+│   ├── gui.py               
 ├── database/
-│   ├── english_grammar_quiz.db # SQLite database file
-│   ├── quiz_db.sql            # SQL structure for the quiz database (if applicable)
-├── requirements.txt           # Python dependencies
-└── README.md                  # Project overview and instructions
+│   ├── english_grammar_quiz.db 
+│   ├── quiz_db.sql            
+├── requirements.txt      
+└── README.md                 
 
 ---
 
