@@ -27,6 +27,11 @@ The English Grammar Proficiency Quiz Application is a fun and interactive platfo
 
 ---
 
+## Directory Structure
+English-Grammar-Proficiency-Quiz-Application/ │ ├── main.py # The entry point of the application ├── database.py # Handles database connections and queries ├── create_database.py # Creates the necessary database structure ├── insert_question.py # Inserts quiz questions into the database ├── verify_data.py # Verifies if the database is properly populated ├── gui.py # Manages the graphical user interface using Tkinter ├── quiz_logic.py # Contains the logic for the quiz functionality ├── sound.py # Plays sound effects using Pygame ├── delete.py # Deletes user data or resets the database if needed ├── sounds/ # Directory for sound files │ ├── correct.mp3 # Sound for correct answers │ ├── incorrect.mp3 # Sound for incorrect answers │ ├── background.mp3 # Background music for the quiz │ └── congrats.mp3 # Sound for quiz completion ├── templates/ # Directory for HTML templates (if using a web framework) │ ├── home.html # Home page template │ ├── signup.html # Sign-Up page template │ ├── login.html # Login page template │ ├── quiz.html # Quiz page template │ ├── results.html # Results page template │ └── settings.html # Settings page template ├── static/ # Directory for static files (CSS, JS, images) │ ├── css/ │ │ └── styles.css # CSS styles │ ├── js/ │ │ └── scripts.js # JavaScript files │ └── images/ │ └── logo.png # Logo image ├── english_grammar_quiz.db # SQLite database file └── README.md # Project documentation
+
+---
+
 ## Database Design
 ### Tables
 - **Users**: Stores user credentials (username, password).
@@ -54,8 +59,8 @@ The English Grammar Proficiency Quiz Application is a fun and interactive platfo
 ## Installation Instructions
 1. **Clone the Repository**:
     ```bash
-    git clone https://github.com/your-repo-url/grammar-quiz.git
-    cd grammar-quiz
+    git clone https://github.com/Chanpisal/English-Grammar-Proficiency-Quiz-Application.git
+    cd Final_project
     ```
 2. **Set Up the Database**:
     - Run the following scripts to initialize the database and add sample data:
@@ -94,7 +99,7 @@ The English Grammar Proficiency Quiz Application is a fun and interactive platfo
 
 The application includes various sound files to enhance user interaction. These files are used for:
 
-- **Feedback**: Sounds for correct and incorrect answers.
+- **Feedback**: Sounds for correct and incorrect answers as well as congraduation.
 - **Background Music**: Optional background audio for the quiz.
 
 ### File Format and Location
@@ -112,3 +117,15 @@ Place sound files in the `sounds/` directory in the project root. The applicatio
 - Multiplayer quiz mode.
 - Progress analytics dashboard with graphs.
 - Speech recognition for answering questions.
+
+---
+
+## References
+1. **Online Tutorials**:
+- Akashgiricse. (n.d.). GitHub - akashgiricse/lets-quiz: A quiz website for organizing online quizzes and tests. It’s build using Python/Django and Bootstrap4 frameworks. GitHub. https://github.com/akashgiricse/lets-quiz.git
+- Bro Code. (2022, November 23). Create a QUIZ GAME with Python [Video]. YouTube. https://www.youtube.com/watch?v=zehwgTB0vV8
+- GeeksforGeeks. (2023, February 23). Python Quiz Application Project. GeeksforGeeks. https://www.geeksforgeeks.org/python-quiz-application-project/
+- Lodha, S. (2024, September 22). Quiz Application Using Python With Source Code - CodeWithCurious. CodeWithCurious. https://codewithcurious.com/projects/quiz-application-using-python/
+- Trinity software academy. (2020, September 30). How to build a Quiz app with Python Tkinter [Video]. YouTube. https://www.youtube.com/watch?v=5smq0hCANaE
+1. **Collaboration**:
+- Discussed key challenges and ideas with peers and professors for feedback and improvement.
