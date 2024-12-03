@@ -105,10 +105,6 @@ The application includes various sound files to enhance user interaction. These 
 
 Place sound files in the `sounds/` directory in the project root. The application will load these files automatically for sound effects during quizzes.
 
-## License
-
-This project is licensed under the MIT License. Feel free to use, modify, and distribute it as needed.
-
 ---
 
 ## Future Enhancements
