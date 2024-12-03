@@ -107,27 +107,6 @@ Place sound files in the `sounds/` directory in the project root. The applicatio
 
 ---
 
-## Directory Structure
-
-EnglishGrammarQuiz/
-├── backend/                    
-│   ├── main.py                 # Main application entry point
-│   ├── database.py             # Database connection and query handling
-│   ├── create_database.py      # Script to initialize the database structure
-│   ├── insert_question.py      # Script to insert quiz questions into the database
-│   ├── verify_data.py          # Validates database content
-│   ├── delete.py               # Deletes user data or resets the database
-│   ├── quiz_logic.py           # Core quiz functionality and logic
-│   ├── sound.py                # Manages sound effects using Pygame
-├── frontend/                   
-│   ├── gui.py                  # GUI implementation using Tkinter
-├── database/                   
-│   ├── english_grammar_quiz.db # SQLite database file
-├── requirements.txt            # Python dependencies and package requirements
-└── README.md                   # Documentation and project overview
-
----
-
 ## Future Enhancements
 - Mobile compatibility.
 - Multiplayer quiz mode.
