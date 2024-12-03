@@ -111,20 +111,21 @@ Place sound files in the `sounds/` directory in the project root. The applicatio
 
 EnglishGrammarQuiz/
 ├── backend/                    
-│   ├── main.py                 
-│   ├── database.py             
+│   ├── main.py                
+│   ├── database.py
 │   ├── create_database.py    
 │   ├── insert_question.py      
 │   ├── verify_data.py         
 │   ├── delete.py              
-│   ├── quiz_logic.py        
-│   ├── sound.py              
+│   ├── quiz_logic.py           
+│   ├── sound.py            
 ├── frontend/                   
-│   ├── gui.py                 
-├── database/                 
-│   ├── english_grammar_quiz.db           
+│   ├── gui.py                
+├── database/                   
+│   ├── english_grammar_quiz.db 
 ├── requirements.txt           
 └── README.md                  
+     
 
 ---
 
