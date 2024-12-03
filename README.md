@@ -27,11 +27,6 @@ The English Grammar Proficiency Quiz Application is a fun and interactive platfo
 
 ---
 
-## Directory Structure
-English-Grammar-Proficiency-Quiz-Application/ │ ├── main.py # The entry point of the application ├── database.py # Handles database connections and queries ├── create_database.py # Creates the necessary database structure ├── insert_question.py # Inserts quiz questions into the database ├── verify_data.py # Verifies if the database is properly populated ├── gui.py # Manages the graphical user interface using Tkinter ├── quiz_logic.py # Contains the logic for the quiz functionality ├── sound.py # Plays sound effects using Pygame ├── delete.py # Deletes user data or resets the database if needed ├── sounds/ # Directory for sound files │ ├── correct.mp3 # Sound for correct answers │ ├── incorrect.mp3 # Sound for incorrect answers │ ├── background.mp3 # Background music for the quiz │ └── congrats.mp3 # Sound for quiz completion ├── templates/ # Directory for HTML templates (if using a web framework) │ ├── home.html # Home page template │ ├── signup.html # Sign-Up page template │ ├── login.html # Login page template │ ├── quiz.html # Quiz page template │ ├── results.html # Results page template │ └── settings.html # Settings page template ├── static/ # Directory for static files (CSS, JS, images) │ ├── css/ │ │ └── styles.css # CSS styles │ ├── js/ │ │ └── scripts.js # JavaScript files │ └── images/ │ └── logo.png # Logo image ├── english_grammar_quiz.db # SQLite database file └── README.md # Project documentation
-
----
-
 ## Database Design
 ### Tables
 - **Users**: Stores user credentials (username, password).
@@ -109,6 +104,12 @@ The application includes various sound files to enhance user interaction. These 
 ### Usage
 
 Place sound files in the `sounds/` directory in the project root. The application will load these files automatically for sound effects during quizzes.
+
+---
+
+## Directory Structure
+
+EnglishGrammarQuiz/ ├── backend/ │ ├── main.py # Entry point of the application │ ├── database.py # Handles database connections and queries │ ├── create_database.py # Creates the necessary database structure │ ├── insert_question.py # Inserts quiz questions into the database │ ├── verify_data.py # Verifies if the database is properly populated │ ├── delete.py # Deletes user data or resets the database │ ├── quiz_logic.py # Contains the logic for the quiz functionality │ ├── sound.py # Plays sound effects using Pygame ├── frontend/ │ ├── gui.py # Manages the graphical user interface using Tkinter ├── database/ │ ├── english_grammar_quiz.db # SQLite database file │ ├── quiz_db.sql # SQL structure for the quiz database (if applicable) ├── requirements.txt # Python dependencies └── README.md # Project overview and instructions
 
 ---
 
